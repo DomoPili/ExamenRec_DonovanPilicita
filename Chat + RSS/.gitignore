@@ -1,0 +1,30 @@
+# --- Python y Bytecode (Basura generada por Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales (¡Muy Importante!) ---
+venv/
+.venv/
+env/
+.env_local/
+
+# --- Variables de Entorno y Secretos (¡CRÍTICO!) ---
+.env
+.streamlit/secrets.toml
+
+# --- Base de Datos Vectorial (ChromaDB) ---
+# No queremos subir la base de datos, se genera localmente
+chroma_db/
+.chroma/
+
+# --- IDEs (Configuraciones de tu editor) ---
+.vscode/
+.idea/
+
+# --- Archivos de sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Logs y archivos temporales ---
+*.log
